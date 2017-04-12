@@ -1,0 +1,33 @@
+{
+  "name": "unuclient",
+  "version": "1.0.0",
+  "description": "A minimal, distraction-free chat application for the web",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reatcas/unuclient.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": {
+    "name": "Andrew Belt",
+    "email": "andrewpbelt@gmail.com",
+    "url": "https://github.com/AndrewBelt"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AndrewBelt/hack.chat/issues"
+  },
+  "homepage": "https://github.com/AndrewBelt/hack.chat",
+  "dependencies": {
+    "node-pushnotifications": "^1.0.14",
+    "ws": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
