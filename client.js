@@ -1,4 +1,4 @@
-﻿var frontpage = [
+var frontpage = [
 	"",
 	"",
 	"",
@@ -291,7 +291,7 @@ function updateTitle() {
 		title = "?" + myChannel
 	}
 	else {
-		title = "unu.chat"
+		title = "ghost.chat"
 	}
 	if (unread > 0) {
 		title = '(' + unread + ') ' + title
